@@ -4,31 +4,71 @@
         <title>Mrchants</title>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+      <!-- Your custom CSS -->
+      <style>
+        body {
+            background-color: rgb(255, 255, 255); /* Replace with your desired color */
+            /* You can use color names (like "lightblue"), hex codes (like "#f0f0f0"), or RGB values (like "rgb(255, 255, 255)") */
+        }
+    </style>
+      <style>
+        .video-container {
+          display: flex;
+          justify-content: center;
+          margin-top: 50px; /* Example margin for spacing */
+        }
+      </style>
     </head>
     <body>
-       
-        <div class="1">
-        <h2>books store of Manchester city </h2>
-        <div class="2">
-       <table cellspacing="70">
-        <tr>
-            <th><a href="sign.html">sign up</a></th>
-            <th>contact us</th>
-            <th><a href="cities.html">list of place</a> </th>
-            <th><a href="about us.html">about us </a></th>
-            <th>help</th>
-            <th>search</th>
-        </tr>
-       </table>
+        
+        <div class="navbar">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Navbar</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="sign.html">Login</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Signup</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
         </div>
-        <div class="3">
-       <h1>book store</h1>
-       <p><i>you can fine the dest book from us and we will deliver it to you and the price of book are in discount offer and easy topay for book and if anything need please contact to us</i></p>
-        <p>Notable spots include Square Books (one of the South’s favorite bookstores), Neilsen’s (the South’s oldest department store), and City Grocery (a landmark restaurant in Oxford’s surprisingly wonderful dining scene).Bookshop.org works to connect readers with independent booksellers all over the world.
+        <div class="content">
+       <h1 style="color: #000000;">book store</h1>
+       <p style="color: #000000;"><i>you can fine the dest book from us and we will deliver it to you and the price of book are in discount offer and easy topay for book and if anything need please contact to us</i></p>
+        <p style="color: #000000;">Notable spots include Square Books (one of the South’s favorite bookstores), Neilsen’s (the South’s oldest department store), and City Grocery (a landmark restaurant in Oxford’s surprisingly wonderful dining scene).Bookshop.org works to connect readers with independent booksellers all over the world.
             ‍We believe local bookstores are essential community hubs that foster culture, curiosity, and a love of reading, and we're committed to helping them thrive.Every purchase on the site financially supports independent bookstores. Our platform gives independent bookstores tools to compete online and financial support to help them maintain their presence in local communities</p>
-       
-        <video  width="320" height="240" controls>
-            <source src="https://content.codecademy.com/projects/make-a-website/lesson-1/ollie.mp4" type="video/mp4">
+          <div class="video-container">
+        <video  width="500" height="300" controls>
+            <source src="photos/854417-uhd_3840_2160_25fps.mp4" type="video/mp4">
         </video>
         </div>
         </div>
